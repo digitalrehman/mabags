@@ -155,9 +155,9 @@ export const siteConfig = {
       { name: "Contact", href: "/contact" },
     ],
     footer: [
-      { name: "Privacy Policy", href: "/privacy" },
-      { name: "Terms of Service", href: "/terms" },
-      { name: "Shipping Info", href: "/shipping" },
+      { name: "Privacy Policy", href: "/privacy-policy" },
+      { name: "Terms of Service", href: "/terms-of-service" },
+      { name: "Shipping Info", href: "/shipping-info" },
     ],
   },
 

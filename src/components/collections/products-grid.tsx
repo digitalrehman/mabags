@@ -21,7 +21,6 @@ export function ProductsGrid({ initialProducts, category, search, sort }: Produc
   const searchParams = useSearchParams()
   const [products, setProducts] = useState(initialProducts.items)
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid")
-  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null)
   const [isLoading, setIsLoading] = useState(false)
   const [searchTerm, setSearchTerm] = useState(search || "")
   const [selectedCategory, setSelectedCategory] = useState(category || "")
@@ -73,7 +72,7 @@ export function ProductsGrid({ initialProducts, category, search, sort }: Produc
     router.push("/collections")
   }
 
-  const hasActiveFilters = selectedCategory || searchTerm || selectedSort !== "newest"
+  const hasActiveFilters = !!(selectedCategory || searchTerm || selectedSort !== "newest")
 
   return (
     <section className="py-8 md:py-12 bg-background">
@@ -134,7 +133,7 @@ export function ProductsGrid({ initialProducts, category, search, sort }: Produc
                   exit={{ opacity: 0, scale: 0.9 }}
                   transition={{ delay: index * 0.05 }}
                 >
-                  <ProductCard product={product} viewMode={viewMode} onClick={() => setSelectedProduct(product)} />
+                  <ProductCard product={product} viewMode={viewMode} />
                 </motion.div>
               ))}
             </AnimatePresence>
@@ -150,9 +149,6 @@ export function ProductsGrid({ initialProducts, category, search, sort }: Produc
           </div>
         )}
       </div>
-
-      {/* Product Modal */}
-      <ProductModal product={selectedProduct} isOpen={!!selectedProduct} onClose={() => setSelectedProduct(null)} />
     </section>
   )
 }
