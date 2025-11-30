@@ -1,0 +1,528 @@
+[00:00:01.370] Server  LOG      ✓ Ready in 884ms
+[00:00:18.609] Server  LOG      ○ Compiling / ...
+[00:00:19.771] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:19.799] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:19.800] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:19.802] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:00:19.859] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:19.859] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__248801f5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:19.862] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:19.863] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:19.865] Server  ERROR   Error fetching articles: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:00:21.504] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:21.504] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:21.504] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764490832141}
+[00:00:21.862] Browser WARN    Image with src "/premium-trolley-suitcase-red-luggage.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:34.832] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764490845453}
+[00:00:34.832] Browser WARN    Image with src "http://localhost:3000/professional-bag-manufacturing-workshop-quality-cr.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:00:36.242] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:36.244] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:36.245] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:36.247] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:00:36.257] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:36.257] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__248801f5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:36.258] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:36.259] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:36.259] Server  ERROR   Error fetching articles: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:00:36.440] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764490847073}
+[00:02:01.066] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:01.068] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:01.068] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:01.069] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:02:01.386] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764490932015}
+[00:02:07.108] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764490937737}
+[00:02:13.997] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:13.998] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:13.999] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:13.999] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:02:14.008] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:14.009] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__248801f5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:14.010] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:14.011] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:14.011] Server  ERROR   Error fetching articles: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:02:14.193] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764490944828}
+[00:03:00.088] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:00.090] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:00.090] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:00.092] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:03:00.306] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764490990939}
+[00:04:01.496] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections/hajj-umrah-special-bag color: rgb(120, 120, 120) color: inherit {"dp":"/collections/[slug]","o":"http://localhost:3000/collections/hajj-umrah-special-bag","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491052125}
+[00:04:29.445] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:29.447] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:29.447] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:29.449] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:04:29.674] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491080309}
+[00:04:39.955] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:39.959] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:39.960] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:39.962] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:04:45.379] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:45.381] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:45.383] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:04:45.385] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:05:01.140] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:01.141] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:01.142] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:01.143] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:05:03.347] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:03.350] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:03.350] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:03.351] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:05:23.619] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:23.620] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:23.621] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:23.622] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:05:23.628] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:23.628] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__248801f5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:23.629] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:23.630] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:23.630] Server  ERROR   Error fetching articles: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:05:23.818] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491134447}
+[00:05:28.689] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:28.691] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:28.692] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:28.693] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:05:28.896] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491139529}
+[00:05:30.051] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:30.052] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:30.053] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:30.054] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:05:30.065] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:30.066] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__248801f5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:30.066] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:30.067] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:05:30.068] Server  ERROR   Error fetching articles: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:05:30.235] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491140866}
+[00:14:20.712] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491671341}
+[00:14:48.158] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:48.158] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/privacy","route":"/privacy"}
+[00:14:48.158] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/privacy color: rgb(120, 120, 120) color: inherit {"dp":"/privacy","o":"http://localhost:3000/privacy","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491698790}
+[00:14:50.723] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:14:50.726] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:14:50.727] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:14:50.728] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:14:51.011] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491701636}
+[00:15:41.451] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:15:41.452] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:15:41.452] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:15:41.453] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:15:50.463] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:15:50.465] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:15:50.465] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:15:50.466] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:15:52.831] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:15:52.834] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:15:52.834] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:15:52.835] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:15:54.678] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:15:54.680] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:15:54.681] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:15:54.682] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:15:59.294] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:15:59.296] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:15:59.296] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:15:59.298] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:16:03.030] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:03.031] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:03.031] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:03.032] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:16:04.480] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:04.481] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:04.482] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:04.483] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:16:05.725] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:05.726] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:05.727] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:05.727] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:16:06.277] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:06.278] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:06.278] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:06.279] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:16:07.574] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:07.579] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:07.580] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:07.580] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:16:08.173] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:08.174] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:08.175] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:08.176] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:16:20.118] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:20.121] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:20.121] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:20.122] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:16:29.315] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491799947}
+[00:18:01.272] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:01.273] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:01.274] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:01.275] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:18:01.280] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:01.281] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__248801f5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:01.283] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:01.284] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:01.285] Server  ERROR   Error fetching articles: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:18:01.508] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491892132}
+[00:18:15.913] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:15.917] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:15.918] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:15.919] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:18:16.140] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections?sale=true color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections?sale=true","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491906766}
+[00:18:21.813] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:21.813] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:21.814] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:21.816] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:18:21.823] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:21.823] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__248801f5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:21.824] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:21.824] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:18:21.825] Server  ERROR   Error fetching articles: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:18:22.008] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491912637}
+[00:18:48.804] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491939431}
+[00:18:48.804] Browser WARN    Image with src "http://localhost:3000/professional-bag-manufacturing-workshop-quality-cr.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:18:55.634] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764491946263}
+[00:20:46.454] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:20:46.456] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:20:46.457] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:20:46.458] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:20:46.698] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections?category=bike-covers color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections?category=bike-covers","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492057329}
+[00:20:58.111] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact?product=boys-school-backpack color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact?product=boys-school-backpack","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492068739}
+[00:20:59.793] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:20:59.795] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:20:59.795] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:20:59.796] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:20:59.993] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492070621}
+[00:21:15.931] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:21:15.932] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:21:15.933] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:21:15.934] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:21:15.940] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:21:15.940] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__248801f5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:21:15.942] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:21:15.942] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:21:15.943] Server  ERROR   Error fetching articles: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:21:16.128] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492086754}
+[00:21:19.922] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:21:19.922] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:21:19.925] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:21:19.926] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:21:20.126] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections?category=trolley-bags color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections?category=trolley-bags","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492090755}
+[00:21:22.011] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492092643}
+[00:21:27.315] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:21:27.316] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:21:27.317] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:21:27.318] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:21:27.324] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:21:27.324] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__248801f5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:21:27.325] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:21:27.326] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:21:27.327] Server  ERROR   Error fetching articles: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:21:27.499] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492098125}
+[00:21:41.612] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492112244}
+[00:21:56.391] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:21:56.392] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:21:56.393] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:21:56.393] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:21:56.638] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492127265}
+[00:22:12.594] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:22:12.597] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:22:12.597] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:22:12.598] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:22:12.605] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:22:12.606] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__248801f5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:22:12.608] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:22:12.609] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:22:12.612] Server  ERROR   Error fetching articles: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:22:12.813] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492143435}
+[00:22:23.107] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492153733}
+[00:22:29.111] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:22:29.112] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:22:29.113] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:22:29.114] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:22:29.323] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492159947}
+[00:22:35.603] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492166227}
+[00:22:48.142] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:22:48.143] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:22:48.144] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:22:48.145] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:22:48.150] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:22:48.150] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__248801f5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:22:48.152] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:22:48.152] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:22:48.153] Server  ERROR   Error fetching articles: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:22:48.326] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492178960}
+[00:22:59.521] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:22:59.521] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin","route":"/admin"}
+[00:22:59.521] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492190156}
+[00:23:04.181] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:23:04.182] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__248801f5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:23:04.183] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:23:04.183] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:23:04.184] Server  ERROR   Error fetching articles: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:23:04.191] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:23:04.193] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:23:04.193] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:23:04.194] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:23:04.757] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:23:04.757] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:23:04.757] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492195396}
+[00:23:05.889] Browser WARN    Image with src "/premium-trolley-suitcase-red-luggage.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:27:56.827] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/dashboard" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
+                            className="geist_9c6cb61b-module__8NX9hq__variable geist_mono_d6617093-module__z61v7q__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:27:56.944] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:27:56.944] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:27:56.944] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492487570}
+[00:27:59.346] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:27:59.347] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:27:59.347] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:27:59.348] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:27:59.356] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:27:59.356] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__248801f5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:27:59.359] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:27:59.360] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:27:59.361] Server  ERROR   Error fetching articles: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:27:59.685] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492490313}
+[00:28:12.090] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:28:12.090] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
+[00:28:12.090] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492502718}
+[00:28:13.887] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:28:13.888] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:28:13.889] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:28:13.892] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:28:13.902] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:28:13.902] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__248801f5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:28:13.903] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:28:13.904] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:28:13.904] Server  ERROR   Error fetching articles: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:28:14.174] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492504799}
+[00:30:14.799] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:14.801] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:14.802] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:14.803] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:30:14.812] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:14.813] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__248801f5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:14.814] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:14.814] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:14.815] Server  ERROR   Error fetching articles: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:30:28.363] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:28.364] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:28.365] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:28.366] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:30:28.374] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:28.375] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__248801f5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:28.376] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:28.376] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:28.377] Server  ERROR   Error fetching articles: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:30:29.005] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:30:29.005] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:30:29.005] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492639642}
+[00:30:30.152] Browser WARN    Image with src "/premium-trolley-suitcase-red-luggage.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:31:18.935] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492689543}
+[00:31:18.935] Browser WARN    Image with src "http://localhost:3000/professional-bag-manufacturing-workshop-quality-cr.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:31:52.610] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:31:52.612] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:31:52.613] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:31:52.614] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:31:52.866] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492723487}
+[00:32:07.934] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact?product=laptop-messenger-bag color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact?product=laptop-messenger-bag","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492738566}
+[00:32:39.096] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:32:39.099] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:32:39.099] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:32:39.100] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:32:39.317] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492769946}
+[00:34:23.110] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections/laptop-messenger-bag color: rgb(120, 120, 120) color: inherit {"dp":"/collections/[slug]","o":"http://localhost:3000/collections/laptop-messenger-bag","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492873747}
+[00:34:25.891] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:34:25.893] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:34:25.893] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:34:25.894] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:34:25.903] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:34:25.903] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__248801f5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:34:25.904] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:34:25.905] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:34:25.905] Server  ERROR   Error fetching articles: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:34:26.097] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492876717}
+[00:34:43.614] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__6074d0ce._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:34:43.614] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:34:43.615] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:34:43.616] Server  ERROR   Error fetching products: Error: Please add your MongoDB URI to .env.local. Get your connection string from MongoDB Atlas (https://cloud.mongodb.com)
+[00:34:43.894] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764492894517}
+[00:36:33.422] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764493004054}
+[00:41:35.338] Server  LOG        Reload env: .env.local
+[00:41:38.848] Server  LOG        Reload env: .env.local
+[00:48:21.182] Server  LOG      ✓ Compiled in 664ms
+[00:48:21.251] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./src/config/global.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:48:23.445] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/contact" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
+                            className="geist_9c6cb61b-module__8NX9hq__variable geist_mono_d6617093-module__z61v7q__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:48:23.445] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:48:23.445] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
+[00:48:23.445] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764493713709}
+[00:50:07.663] Server  LOG        Reload env: .env.local
+[00:50:19.578] Server  LOG        Reload env: .env.local
+[00:50:19.758] Server  LOG      ✓ Compiled in 131ms
+[00:50:19.966] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./src/config/global.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:50:21.447] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:50:21.447] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
+[00:50:21.447] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764493831654}
+[00:52:21.670] Server  LOG        Reload env: .env.local
+[00:52:21.833] Server  LOG      ✓ Compiled in 99ms
+[00:52:21.995] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./src/config/global.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:52:22.689] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/contact" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
+                            className="geist_9c6cb61b-module__8NX9hq__variable geist_mono_d6617093-module__z61v7q__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:52:22.800] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:52:22.800] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
+[00:52:22.800] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764493953434}
+[01:04:17.452] Server  LOG        Reload env: .env.local
+[01:04:17.610] Server  LOG      ✓ Compiled in 93ms
+[01:04:17.853] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./src/config/global.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:04:18.852] Server  LOG        Reload env: .env.local
+[01:04:19.026] Server  LOG      ✓ Compiled in 93ms
+[01:04:19.193] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./src/config/global.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:04:19.193] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/contact" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
+                            className="geist_9c6cb61b-module__8NX9hq__variable geist_mono_d6617093-module__z61v7q__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[01:04:19.193] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:04:19.193] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
+[01:04:19.193] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764494669722}
+[01:04:20.438] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:04:20.439] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
+[01:04:20.439] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764494670589}
