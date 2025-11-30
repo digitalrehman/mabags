@@ -1,23 +1,145 @@
-[00:00:01.529] Server  LOG      ✓ Ready in 1037ms
-[00:00:07.341] Server  LOG      ○ Compiling / ...
-[00:00:10.091] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:10.091] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:10.091] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764503896383}
-[00:00:10.939] Browser WARN    Image with src "/premium-trolley-suitcase-red-luggage.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:19.363] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections/laptop-bags color: rgb(120, 120, 120) color: inherit {"dp":"/collections/[slug]","o":"http://localhost:3000/collections/laptop-bags","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764503905918}
-[00:00:59.245] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764503945793}
-[00:01:06.956] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764503953510}
-[00:01:14.981] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764503961535}
-[00:01:16.750] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764503963304}
-[00:01:25.782] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764503972336}
-[00:01:27.295] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764503973849}
-[00:01:33.485] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/privacy-policy color: rgb(120, 120, 120) color: inherit {"dp":"/privacy-policy","o":"http://localhost:3000/privacy-policy","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764503980038}
-[00:01:42.517] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/terms-of-service color: rgb(120, 120, 120) color: inherit {"dp":"/terms-of-service","o":"http://localhost:3000/terms-of-service","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764503989064}
-[00:01:52.029] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/shipping-info color: rgb(120, 120, 120) color: inherit {"dp":"/shipping-info","o":"http://localhost:3000/shipping-info","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764503998586}
-[00:02:00.114] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764504006629}
-[00:02:00.114] Browser WARN    Image with src "http://localhost:3000/professional-bag-manufacturing-workshop-quality-cr.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:02:10.860] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:02:10.860] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin","route":"/admin"}
-[00:02:10.860] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764504017418}
-[00:02:20.876] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764504027435}
+[00:00:01.466] Server  LOG      ✓ Ready in 1005ms
+[00:00:04.534] Server  LOG      ○ Compiling /contact ...
+[00:00:06.517] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/contact" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
+                            className="geist_9c6cb61b-module__8NX9hq__variable geist_mono_d6617093-module__z61v7q__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:00:06.517] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:06.517] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
+[00:00:06.517] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764505127537}
+[00:00:10.485] Browser ERROR   EmailJS Error: {"status":400,"text":"The template ID not found. To find this ID, visit https://dashboard.emailjs.com/admin/templates"}
+[00:01:00.519] Server  LOG      ✓ Compiled in 434ms
+[00:13:08.953] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:13:08.953] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
+[00:13:08.953] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764505909972}
+[00:13:14.305] Browser LOG     Sending email with EmailJS...
+[00:13:16.067] Browser ERROR   EmailJS Error: {"status":400,"text":"The template ID not found. To find this ID, visit https://dashboard.emailjs.com/admin/templates"}
+[00:14:47.345] Server  LOG      ✓ Compiled in 278ms
+[00:15:51.897] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/contact" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
+                            className="geist_9c6cb61b-module__8NX9hq__variable geist_mono_d6617093-module__z61v7q__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:15:51.990] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:15:51.990] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
+[00:15:51.990] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764506073014}
+[00:16:01.028] Browser LOG     EmailJS Config: {"publicKey":"***hM-e","serviceId":"service_qskysxn","templateId":"template_8y7lvc8"}
+[00:16:01.028] Browser LOG     Sending data: {"from_email":"rafola@mailinator.com","from_name":"Summer Ochoa","message":"Non maiores minim la","phone":"+1 (809) 478-5365","subject":"Reprehenderit aut e","to_email":"bagsma514@gmail.com"}
+[00:16:01.028] Browser LOG     Sending email with EmailJS...
+[00:16:02.464] Browser ERROR   EmailJS Full Error: {"status":400,"text":"The template ID not found. To find this ID, visit https://dashboard.emailjs.com/admin/templates"}
+[00:16:02.464] Browser ERROR   EmailJS Error Text: The template ID not found. To find this ID, visit https://dashboard.emailjs.com/admin/templates
+[00:18:00.927] Server  LOG        Reload env: .env.local
+[00:18:00.972] Server  LOG      ✓ Compiled in 5ms
+[00:18:01.109] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./src/config/global.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:18:03.058] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/contact" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
+                            className="geist_9c6cb61b-module__8NX9hq__variable geist_mono_d6617093-module__z61v7q__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:18:03.058] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:18:03.058] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
+[00:18:03.058] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764506203502}
+[00:18:06.541] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:18:06.541] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
+[00:18:06.541] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764506207566}
+[00:18:09.442] Browser LOG     EmailJS Config: {"publicKey":"***hM-e","serviceId":"service_qskysxn","templateId":"template_ud03mbo"}
+[00:18:09.443] Browser LOG     Sending data: {"from_email":"nakybinim@mailinator.com","from_name":"Tobias Fernandez","message":"Excepteur est vero q","phone":"+1 (482) 678-9604","subject":"Architecto et aperia","to_email":"bagsma514@gmail.com"}
+[00:18:09.443] Browser LOG     Sending email with EmailJS...
+[00:18:11.301] Browser LOG     EmailJS Response: {"status":200,"text":"OK"}

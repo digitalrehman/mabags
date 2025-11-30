@@ -4,9 +4,11 @@ import type React from "react"
 
 import { useState } from "react"
 import { motion } from "framer-motion"
+import emailjs from "@emailjs/browser"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
+import { siteConfig } from "@/config/global"
 
 export function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -20,28 +22,65 @@ export function ContactForm() {
 
     const formData = new FormData(e.currentTarget)
     const data = {
-      name: formData.get("name") as string,
-      email: formData.get("email") as string,
+      from_name: formData.get("name") as string,
+      from_email: formData.get("email") as string,
       phone: formData.get("phone") as string,
       subject: formData.get("subject") as string,
       message: formData.get("message") as string,
+      to_email: "bagsma514@gmail.com",
     }
 
     try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
-      })
-
-      if (!response.ok) {
-        throw new Error("Failed to send message")
+      // Validate EmailJS configuration
+      if (!siteConfig.emailjs.serviceId || !siteConfig.emailjs.templateId || !siteConfig.emailjs.publicKey) {
+        throw new Error("EmailJS configuration is missing. Please check environment variables.")
       }
 
-      setSubmitted(true)
-      ;(e.target as HTMLFormElement).reset()
-    } catch {
-      setError("Failed to send message. Please try again later.")
+      console.log("EmailJS Config:", {
+        serviceId: siteConfig.emailjs.serviceId,
+        templateId: siteConfig.emailjs.templateId,
+        publicKey: siteConfig.emailjs.publicKey ? "***" + siteConfig.emailjs.publicKey.slice(-4) : "missing"
+      })
+
+      console.log("Sending data:", data)
+      console.log("Sending email with EmailJS...")
+
+      // Send email using EmailJS
+      const response = await emailjs.send(
+        siteConfig.emailjs.serviceId,
+        siteConfig.emailjs.templateId,
+        data,
+        siteConfig.emailjs.publicKey
+      )
+
+      console.log("EmailJS Response:", response)
+
+      if (response.status === 200) {
+        setSubmitted(true)
+          ; (e.target as HTMLFormElement).reset()
+      } else {
+        throw new Error("Failed to send message")
+      }
+    } catch (err: any) {
+      console.error("EmailJS Full Error:", err)
+
+      // More specific error messages
+      let errorMessage = "Failed to send message. "
+
+      if (err.text) {
+        errorMessage += `Error: ${err.text}. `
+        console.error("EmailJS Error Text:", err.text)
+      } else if (err.message) {
+        errorMessage += `Error: ${err.message}. `
+      }
+
+      // Check for specific 400 error
+      if (err.status === 400) {
+        errorMessage = "Configuration error: Please check your EmailJS settings (Service ID, Template ID, or Public Key may be incorrect). "
+      }
+
+      errorMessage += "Please contact us via WhatsApp."
+      setError(errorMessage)
     } finally {
       setIsSubmitting(false)
     }

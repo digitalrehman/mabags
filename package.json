@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@aws-sdk/credential-providers": "latest",
+    "@emailjs/browser": "^4.4.1",
     "@emotion/is-prop-valid": "latest",
     "@hookform/resolvers": "^3.10.0",
     "@mongodb-js/zstd": "latest",
