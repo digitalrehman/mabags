@@ -393,7 +393,7 @@ const siteConfig = {
     // Cloudinary Configuration (for reference - actual keys in env)
     cloudinary: {
         cloudName: ("TURBOPACK compile-time value", "dnq1ro6ih") || "your-cloud-name",
-        uploadPreset: ("TURBOPACK compile-time value", "your_cloudinary_upload_preset_here") || "ma-bags-uploads"
+        uploadPreset: process.env.NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET || "ma-bags-uploads"
     },
     // EmailJS Configuration (for reference - actual keys in env)
     emailjs: {

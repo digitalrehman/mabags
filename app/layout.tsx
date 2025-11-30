@@ -3,8 +3,7 @@ import type { Metadata, Viewport } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { ThemeProvider } from "@/context/theme-context"
-import { Header } from "@/components/layout/header"
-import { Footer } from "@/components/layout/footer"
+import { LayoutWrapper } from "@/components/layout/layout-wrapper"
 import { siteConfig } from "@/config/global"
 import "./globals.css"
 
@@ -36,7 +35,7 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-    generator: 'v0.app'
+  generator: "v0.app",
 }
 
 export const viewport: Viewport = {
@@ -59,11 +58,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${geist.variable} ${geistMono.variable} font-sans antialiased`}>
         <ThemeProvider>
-          <div className="flex flex-col min-h-screen">
-            <Header />
-            <main className="flex-1">{children}</main>
-            <Footer />
-          </div>
+          <LayoutWrapper>{children}</LayoutWrapper>
         </ThemeProvider>
         <Analytics />
       </body>

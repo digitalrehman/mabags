@@ -86,13 +86,28 @@ const __TURBOPACK__default__export__ = getClientPromise;
 "use strict";
 
 __turbopack_context__.s([
+    "DELETE",
+    ()=>DELETE,
     "GET",
-    ()=>GET
+    ()=>GET,
+    "POST",
+    ()=>POST,
+    "PUT",
+    ()=>PUT
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/server.js [app-route] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$mongodb$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/mongodb.ts [app-route] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$externals$5d2f$mongodb__$5b$external$5d$__$28$mongodb$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/mongodb [external] (mongodb, cjs)");
 ;
 ;
+;
+// Helper function to generate slug from title
+function generateSlug(title) {
+    return title.toLowerCase().trim().replace(/[^\w\s-]/g, "") // Remove special characters
+    .replace(/\s+/g, "-") // Replace spaces with hyphens
+    .replace(/-+/g, "-") // Replace multiple hyphens with single hyphen
+    ;
+}
 async function GET(request) {
     try {
         const searchParams = request.nextUrl.searchParams;
@@ -197,6 +212,150 @@ async function GET(request) {
         return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
             success: false,
             error: "Failed to fetch products"
+        }, {
+            status: 500
+        });
+    }
+}
+async function POST(request) {
+    try {
+        const body = await request.json();
+        // Validate required fields
+        if (!body.title || !body.price || !body.description) {
+            return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+                success: false,
+                error: "Missing required fields"
+            }, {
+                status: 400
+            });
+        }
+        const db = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$mongodb$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["getDatabase"])();
+        const productsCollection = db.collection("products");
+        // Generate slug from title
+        const slug = generateSlug(body.title);
+        // Create product object
+        const newProduct = {
+            title: body.title,
+            slug: slug,
+            price: Number(body.price),
+            originalPrice: body.originalPrice ? Number(body.originalPrice) : undefined,
+            description: body.description,
+            features: body.features || [],
+            categories: body.categories || [],
+            images: body.images || [],
+            mainImage: body.mainImage || "",
+            inStock: body.inStock !== false,
+            isFeatured: body.isFeatured || false,
+            isOnSale: body.isOnSale || false,
+            createdAt: new Date()
+        };
+        const result = await productsCollection.insertOne(newProduct);
+        return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+            success: true,
+            data: {
+                _id: result.insertedId.toString(),
+                ...newProduct
+            },
+            message: "Product created successfully"
+        });
+    } catch (error) {
+        console.error("Error creating product:", error);
+        return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+            success: false,
+            error: "Failed to create product"
+        }, {
+            status: 500
+        });
+    }
+}
+async function PUT(request) {
+    try {
+        const body = await request.json();
+        const { _id, ...updateData } = body;
+        if (!_id) {
+            return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+                success: false,
+                error: "Product ID is required"
+            }, {
+                status: 400
+            });
+        }
+        const db = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$mongodb$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["getDatabase"])();
+        const productsCollection = db.collection("products");
+        // Convert string ID to ObjectId
+        const objectId = new __TURBOPACK__imported__module__$5b$externals$5d2f$mongodb__$5b$external$5d$__$28$mongodb$2c$__cjs$29$__["ObjectId"](_id);
+        // If title is being updated, regenerate slug
+        if (updateData.title) {
+            updateData.slug = generateSlug(updateData.title);
+        }
+        // Update product
+        const result = await productsCollection.updateOne({
+            _id: objectId
+        }, {
+            $set: {
+                ...updateData,
+                updatedAt: new Date()
+            }
+        });
+        if (result.matchedCount === 0) {
+            return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+                success: false,
+                error: "Product not found"
+            }, {
+                status: 404
+            });
+        }
+        return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+            success: true,
+            message: "Product updated successfully"
+        });
+    } catch (error) {
+        console.error("Error updating product:", error);
+        return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+            success: false,
+            error: "Failed to update product"
+        }, {
+            status: 500
+        });
+    }
+}
+async function DELETE(request) {
+    try {
+        const searchParams = request.nextUrl.searchParams;
+        const id = searchParams.get("id");
+        if (!id) {
+            return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+                success: false,
+                error: "Product ID is required"
+            }, {
+                status: 400
+            });
+        }
+        const db = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$mongodb$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["getDatabase"])();
+        const productsCollection = db.collection("products");
+        // Convert string ID to ObjectId
+        const objectId = new __TURBOPACK__imported__module__$5b$externals$5d2f$mongodb__$5b$external$5d$__$28$mongodb$2c$__cjs$29$__["ObjectId"](id);
+        // Delete product
+        const result = await productsCollection.deleteOne({
+            _id: objectId
+        });
+        if (result.deletedCount === 0) {
+            return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+                success: false,
+                error: "Product not found"
+            }, {
+                status: 404
+            });
+        }
+        return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+            success: true,
+            message: "Product deleted successfully"
+        });
+    } catch (error) {
+        console.error("Error deleting product:", error);
+        return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+            success: false,
+            error: "Failed to delete product"
         }, {
             status: 500
         });
