@@ -2,11 +2,12 @@
 
 import { useState } from "react"
 import { useRouter } from "next/navigation"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Lock } from "lucide-react"
+import { Lock, Home } from "lucide-react"
 
 // Hardcoded password
 const ADMIN_PASSWORD = "admin123"
@@ -35,6 +36,14 @@ export default function AdminLogin() {
 
   return (
     <div className="min-h-screen flex items-center justify-center px-4 bg-gradient-to-br from-background to-muted">
+      {/* Home Button - Top Right */}
+      <Link href="/" className="fixed top-4 right-4 z-10">
+        <Button variant="outline" size="sm">
+          <Home className="mr-2 h-4 w-4" />
+          Home
+        </Button>
+      </Link>
+
       <Card className="w-full max-w-md">
         <CardHeader className="space-y-1 text-center">
           <div className="flex justify-center mb-4">

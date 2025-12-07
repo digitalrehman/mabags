@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
@@ -24,7 +25,7 @@ import {
 } from "@/components/ui/table"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Checkbox } from "@/components/ui/checkbox"
-import { Plus, Pencil, Trash2, LogOut, Package } from "lucide-react"
+import { Plus, Pencil, Trash2, LogOut, Package, Home } from "lucide-react"
 import { toast } from "sonner"
 import type { Product } from "@/src/lib/types"
 
@@ -136,7 +137,7 @@ export default function AdminDashboard() {
 
     try {
       setUploading(true)
-      
+
       // Show preview immediately
       const reader = new FileReader()
       reader.onloadend = () => {
@@ -246,10 +247,18 @@ export default function AdminDashboard() {
             <Package className="h-6 w-6 text-primary" />
             <h1 className="text-2xl font-bold">Admin Dashboard</h1>
           </div>
-          <Button variant="outline" onClick={handleLogout}>
-            <LogOut className="mr-2 h-4 w-4" />
-            Logout
-          </Button>
+          <div className="flex items-center gap-2">
+            <Link href="/">
+              <Button variant="outline">
+                <Home className="mr-2 h-4 w-4" />
+                Home
+              </Button>
+            </Link>
+            <Button variant="outline" onClick={handleLogout}>
+              <LogOut className="mr-2 h-4 w-4" />
+              Logout
+            </Button>
+          </div>
         </div>
       </div>
 
@@ -293,11 +302,10 @@ export default function AdminDashboard() {
                         <TableCell>{product.categories.join(", ")}</TableCell>
                         <TableCell>
                           <span
-                            className={`px-2 py-1 rounded text-xs ${
-                              product.inStock
+                            className={`px-2 py-1 rounded text-xs ${product.inStock
                                 ? "bg-green-100 text-green-800"
                                 : "bg-red-100 text-red-800"
-                            }`}
+                              }`}
                           >
                             {product.inStock ? "In Stock" : "Out of Stock"}
                           </span>
