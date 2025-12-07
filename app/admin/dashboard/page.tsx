@@ -305,14 +305,14 @@ export default function AdminDashboard() {
                         <TableCell>{product.isFeatured ? "Yes" : "No"}</TableCell>
                         <TableCell className="text-right space-x-2">
                           <Button
-                            size="icon-sm"
-                            variant="outline"
+                            size="icon"
+                            variant="destructive"
                             onClick={() => openEditDialog(product)}
                           >
                             <Pencil className="h-4 w-4" />
                           </Button>
                           <Button
-                            size="icon-sm"
+                            size="icon"
                             variant="destructive"
                             onClick={() => handleDelete(product._id!)}
                           >
