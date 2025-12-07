@@ -2,11 +2,19 @@
   "/_global-error/page": "app/_global-error/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/about/page": "app/about/page.js",
+  "/admin/dashboard/page": "app/admin/dashboard/page.js",
+  "/admin/page": "app/admin/page.js",
   "/api/articles/route": "app/api/articles/route.js",
+  "/api/products/[slug]/route": "app/api/products/[slug]/route.js",
   "/api/products/route": "app/api/products/route.js",
+  "/api/upload/route": "app/api/upload/route.js",
   "/articles/page": "app/articles/page.js",
   "/collections/[slug]/page": "app/collections/[slug]/page.js",
   "/collections/page": "app/collections/page.js",
   "/contact/page": "app/contact/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/privacy-policy/page": "app/privacy-policy/page.js",
+  "/products/[slug]/page": "app/products/[slug]/page.js",
+  "/shipping-info/page": "app/shipping-info/page.js",
+  "/terms-of-service/page": "app/terms-of-service/page.js"
 }
