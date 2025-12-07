@@ -120,7 +120,7 @@ export function ProductsGrid({ initialProducts, category, search, sort }: Produc
           <motion.div
             layout
             className={
-              viewMode === "grid" ? "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6" : "space-y-4"
+              viewMode === "grid" ? "product-grid" : "space-y-4"
             }
           >
             <AnimatePresence mode="popLayout">
