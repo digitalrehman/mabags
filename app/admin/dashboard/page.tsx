@@ -3,6 +3,9 @@
 import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
 import Link from "next/link"
+import { siteConfig } from "@/config/global"
+import { useTheme } from "@/context/theme-context"
+import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
@@ -25,15 +28,16 @@ import {
 } from "@/components/ui/table"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Checkbox } from "@/components/ui/checkbox"
-import { Plus, Pencil, Trash2, LogOut, Package, Home } from "lucide-react"
+import { Plus, Pencil, Trash2, LogOut, Package, Home, Search, Copy, Eye } from "lucide-react"
 import { toast } from "sonner"
-import type { Product } from "@/src/lib/types"
+import type { Product } from "@/lib/types"
 
 export default function AdminDashboard() {
   const [products, setProducts] = useState<Product[]>([])
   const [loading, setLoading] = useState(true)
   const [isDialogOpen, setIsDialogOpen] = useState(false)
   const [editingProduct, setEditingProduct] = useState<Product | null>(null)
+  const [searchTerm, setSearchTerm] = useState("")
   const [uploading, setUploading] = useState(false)
   const [imagePreview, setImagePreview] = useState<string | null>(null)
   const router = useRouter()
@@ -45,7 +49,7 @@ export default function AdminDashboard() {
     originalPrice: "",
     description: "",
     features: "",
-    categories: "",
+    categories: [] as string[],
     mainImage: "",
     inStock: true,
     isFeatured: false,
@@ -92,7 +96,7 @@ export default function AdminDashboard() {
       originalPrice: "",
       description: "",
       features: "",
-      categories: "",
+      categories: [],
       mainImage: "",
       inStock: true,
       isFeatured: false,
@@ -110,7 +114,7 @@ export default function AdminDashboard() {
       originalPrice: product.originalPrice?.toString() || "",
       description: product.description,
       features: product.features.join(", "),
-      categories: product.categories.join(", "),
+      categories: product.categories,
       mainImage: product.mainImage,
       inStock: product.inStock,
       isFeatured: product.isFeatured || false,
@@ -178,7 +182,7 @@ export default function AdminDashboard() {
       price: parseFloat(formData.price),
       originalPrice: formData.originalPrice ? parseFloat(formData.originalPrice) : undefined,
       features: formData.features.split(",").map((f) => f.trim()).filter(Boolean),
-      categories: formData.categories.split(",").map((c) => c.trim()).filter(Boolean),
+      categories: formData.categories,
     }
 
     try {
@@ -239,6 +243,16 @@ export default function AdminDashboard() {
     }
   }
 
+  const filteredProducts = products.filter((product) =>
+    product.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    product.categories.some(cat => cat.toLowerCase().includes(searchTerm.toLowerCase()))
+  )
+
+  const copyToClipboard = (text: string) => {
+    navigator.clipboard.writeText(text)
+    toast.success("Copied to clipboard!")
+  }
+
   return (
     <div className="min-h-screen bg-background">
       <div className="border-b">
@@ -265,16 +279,27 @@ export default function AdminDashboard() {
       <div className="container mx-auto px-4 py-8">
         <Card>
           <CardHeader>
-            <div className="flex justify-between items-center">
-              <div>
-                <CardTitle>Products Management</CardTitle>
-                <CardDescription>Add, edit, or delete products</CardDescription>
+              <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+                <div>
+                  <CardTitle>Products Management</CardTitle>
+                  <CardDescription>Add, edit, or delete products</CardDescription>
+                </div>
+                <div className="flex items-center gap-2 w-full md:w-auto">
+                  <div className="relative flex-1 md:w-64">
+                    <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
+                    <Input
+                      placeholder="Search products..."
+                      className="pl-9"
+                      value={searchTerm}
+                      onChange={(e) => setSearchTerm(e.target.value)}
+                    />
+                  </div>
+                  <Button onClick={openAddDialog}>
+                    <Plus className="mr-2 h-4 w-4" />
+                    Add
+                  </Button>
+                </div>
               </div>
-              <Button onClick={openAddDialog}>
-                <Plus className="mr-2 h-4 w-4" />
-                Add Product
-              </Button>
-            </div>
           </CardHeader>
           <CardContent>
             {loading ? (
@@ -291,11 +316,12 @@ export default function AdminDashboard() {
                       <TableHead>Categories</TableHead>
                       <TableHead>Stock</TableHead>
                       <TableHead>Featured</TableHead>
+                      <TableHead>Views</TableHead>
                       <TableHead className="text-right">Actions</TableHead>
                     </TableRow>
                   </TableHeader>
                   <TableBody>
-                    {products.map((product) => (
+                    {filteredProducts.map((product) => (
                       <TableRow key={product._id}>
                         <TableCell className="font-medium">{product.title}</TableCell>
                         <TableCell>₨ {product.price.toLocaleString()}</TableCell>
@@ -311,17 +337,23 @@ export default function AdminDashboard() {
                           </span>
                         </TableCell>
                         <TableCell>{product.isFeatured ? "Yes" : "No"}</TableCell>
+                        <TableCell>
+                          <div className="flex items-center gap-1">
+                            <Eye className="h-3 w-3 text-muted-foreground" />
+                            {product.views || 0}
+                          </div>
+                        </TableCell>
                         <TableCell className="text-right space-x-2">
                           <Button
-                            size="icon"
-                            variant="destructive"
+                            size="sm"
+                            variant="outline"
                             onClick={() => openEditDialog(product)}
                           >
                             <Pencil className="h-4 w-4" />
                           </Button>
                           <Button
-                            size="icon"
-                            variant="destructive"
+                            size="sm"
+                            variant="danger"
                             onClick={() => handleDelete(product._id!)}
                           >
                             <Trash2 className="h-4 w-4" />
@@ -405,42 +437,87 @@ export default function AdminDashboard() {
                 />
               </div>
 
-              <div className="space-y-2">
-                <Label htmlFor="categories">Categories (comma separated)</Label>
-                <Input
-                  id="categories"
-                  value={formData.categories}
-                  onChange={(e) => setFormData({ ...formData, categories: e.target.value })}
-                  placeholder="trolley-bags, laptop-bags"
-                />
+              <div className="space-y-3">
+                <Label>Categories *</Label>
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 bg-muted p-4 rounded-lg border border-border">
+                  {siteConfig.services.map((service) => (
+                    <div key={service.slug} className="flex items-center space-x-2">
+                      <Checkbox
+                        id={`cat-${service.slug}`}
+                        checked={formData.categories.includes(service.slug)}
+                        onCheckedChange={(checked) => {
+                          if (checked) {
+                            setFormData({
+                              ...formData,
+                              categories: [...formData.categories, service.slug],
+                            })
+                          } else {
+                            setFormData({
+                              ...formData,
+                              categories: formData.categories.filter((c) => c !== service.slug),
+                            })
+                          }
+                        }}
+                      />
+                      <Label
+                        htmlFor={`cat-${service.slug}`}
+                        className="text-sm font-normal cursor-pointer"
+                      >
+                        {service.name}
+                      </Label>
+                    </div>
+                  ))}
+                </div>
+                {formData.categories.length === 0 && (
+                  <p className="text-xs text-destructive">At least one category is required</p>
+                )}
               </div>
 
               <div className="space-y-2">
                 <Label htmlFor="mainImage">Product Image *</Label>
-                <div className="space-y-2">
+                <div className="flex flex-col gap-4 p-4 border rounded-lg bg-muted/30">
+                  {imagePreview ? (
+                    <div className="flex items-center gap-4">
+                      <div className="relative w-24 h-24 rounded-lg overflow-hidden border bg-background">
+                        <img
+                          src={imagePreview || ""}
+                          alt="Current Product"
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                      <div className="flex-1">
+                        <p className="text-sm font-medium mb-1">Current Image</p>
+                        <Button
+                          type="button"
+                          variant="outline"
+                          size="sm"
+                          onClick={() => document.getElementById("mainImage")?.click()}
+                          disabled={uploading}
+                        >
+                          {uploading ? "Uploading..." : "Change Image"}
+                        </Button>
+                      </div>
+                    </div>
+                  ) : (
+                    <div
+                      className="border-2 border-dashed rounded-lg p-6 text-center cursor-pointer hover:bg-muted/50 transition-colors"
+                      onClick={() => document.getElementById("mainImage")?.click()}
+                    >
+                      <Plus className="mx-auto h-8 w-8 text-muted-foreground mb-2" />
+                      <p className="text-sm font-medium">Click to upload image</p>
+                    </div>
+                  )}
                   <Input
                     id="mainImage"
                     type="file"
                     accept="image/*"
                     onChange={handleImageUpload}
                     disabled={uploading}
-                    className="cursor-pointer"
+                    className="hidden"
                   />
                   <p className="text-xs text-muted-foreground">
                     Recommended: 800x800px, Max size: 5MB (JPG, PNG, WebP)
                   </p>
-                  {uploading && (
-                    <p className="text-sm text-blue-600">Uploading image...</p>
-                  )}
-                  {imagePreview && (
-                    <div className="mt-2">
-                      <img
-                        src={imagePreview}
-                        alt="Preview"
-                        className="w-32 h-32 object-cover rounded border"
-                      />
-                    </div>
-                  )}
                 </div>
               </div>
 
@@ -514,6 +591,7 @@ export default function AdminDashboard() {
           </form>
         </DialogContent>
       </Dialog>
+
     </div>
   )
 }

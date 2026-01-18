@@ -20,14 +20,19 @@ export function ProductsGrid({ initialProducts, category, search, sort }: Produc
   const router = useRouter()
   const searchParams = useSearchParams()
   const [products, setProducts] = useState(initialProducts.items)
+  const [page, setPage] = useState(initialProducts.page)
+  const [hasMore, setHasMore] = useState(initialProducts.hasMore)
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid")
   const [isLoading, setIsLoading] = useState(false)
+  const [isMoreLoading, setIsMoreLoading] = useState(false)
   const [searchTerm, setSearchTerm] = useState(search || "")
   const [selectedCategory, setSelectedCategory] = useState(category || "")
   const [selectedSort, setSelectedSort] = useState(sort || "newest")
 
   useEffect(() => {
     setProducts(initialProducts.items)
+    setPage(initialProducts.page)
+    setHasMore(initialProducts.hasMore)
   }, [initialProducts])
 
   const handleFilterChange = (filters: { category?: string; search?: string; sort?: string }) => {
@@ -61,8 +66,36 @@ export function ProductsGrid({ initialProducts, category, search, sort }: Produc
       }
     }
 
+    // Reset pagination when filter changes
+    params.delete("page")
+    
     router.push(`/collections?${params.toString()}`)
     setIsLoading(false)
+  }
+
+  const handleLoadMore = async () => {
+    if (isMoreLoading || !hasMore) return
+
+    setIsMoreLoading(true)
+    try {
+      const nextPage = page + 1
+      const params = new URLSearchParams(searchParams.toString())
+      params.set("page", nextPage.toString())
+      params.set("limit", "12")
+
+      const res = await fetch(`/api/products?${params.toString()}`)
+      const data = await res.json()
+
+      if (data.success) {
+        setProducts((prev) => [...prev, ...data.data.items])
+        setPage(data.data.page)
+        setHasMore(data.data.hasMore)
+      }
+    } catch (error) {
+      console.error("Error loading more products:", error)
+    } finally {
+      setIsMoreLoading(false)
+    }
   }
 
   const clearFilters = () => {
@@ -131,7 +164,7 @@ export function ProductsGrid({ initialProducts, category, search, sort }: Produc
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, scale: 0.9 }}
-                  transition={{ delay: index * 0.05 }}
+                  transition={{ delay: (index % 12) * 0.05 }}
                 >
                   <ProductCard product={product} viewMode={viewMode} />
                 </motion.div>
@@ -140,11 +173,22 @@ export function ProductsGrid({ initialProducts, category, search, sort }: Produc
           </motion.div>
         )}
 
-        {/* Pagination placeholder */}
-        {initialProducts.hasMore && (
+        {/* Load More Button */}
+        {hasMore && (
           <div className="mt-12 text-center">
-            <button className="px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors">
-              Load More Products
+            <button
+              onClick={handleLoadMore}
+              disabled={isMoreLoading}
+              className="px-8 py-3 bg-primary text-white rounded-lg hover:bg-primary/90 transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2 mx-auto"
+            >
+              {isMoreLoading ? (
+                <>
+                  <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
+                  Loading...
+                </>
+              ) : (
+                "Load More Products"
+              )}
             </button>
           </div>
         )}

@@ -4,7 +4,8 @@
 export const siteConfig = {
   // Brand Identity
   siteTitle: "MA Bags",
-  siteDescription: "Premium luggage and bags. Custom Hajj and Umrah bags. Professional repair services.",
+  siteDescription:
+    "Premium luggage and bags. Custom Hajj and Umrah bags. Professional repair services.",
   logoPath: "/assets/logo.png",
 
   // Brand Colors - Used throughout the site
@@ -30,7 +31,8 @@ export const siteConfig = {
   // Hero Section Content
   hero: {
     headline: "Where Fashion Meets Everyday Life",
-    subHeadline: "All kinds of bags & luggage. Custom Hajj and Umrah bags. Repairing service available.",
+    subHeadline:
+      "All kinds of bags & luggage. Custom Hajj and Umrah bags. Repairing service available.",
     ctaText: "Shop Collection",
     ctaLink: "/collections",
     secondaryCta: "Learn More",
@@ -114,7 +116,8 @@ export const siteConfig = {
     enabled: true,
     title: "Winter Sale",
     subtitle: "Up to 40% Off on Selected Items",
-    description: "Don't miss out on our biggest sale of the season. Quality bags at unbeatable prices!",
+    description:
+      "Don't miss out on our biggest sale of the season. Quality bags at unbeatable prices!",
     ctaText: "Shop Now",
     ctaLink: "/collections?sale=true",
     endDate: "2025-02-28",
@@ -140,7 +143,7 @@ export const siteConfig = {
       weekends: "11:00 AM - 8:00 PM",
     },
     socialLinks: {
-      facebook: "https://facebook.com/mabags",
+      facebook: "https://www.facebook.com/mabags2026",
       instagram: "https://instagram.com/mabags",
       whatsapp: "https://wa.me/923183961814",
     },
@@ -199,8 +202,10 @@ export const siteConfig = {
 
   // Cloudinary Configuration (for reference - actual keys in env)
   cloudinary: {
-    cloudName: process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME || "your-cloud-name",
-    uploadPreset: process.env.NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET || "ma-bags-uploads",
+    cloudName:
+      process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME || "your-cloud-name",
+    uploadPreset:
+      process.env.NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET || "ma-bags-uploads",
   },
 
   // EmailJS Configuration (for reference - actual keys in env)
@@ -209,11 +214,11 @@ export const siteConfig = {
     templateId: process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "",
     publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || "",
   },
-}
+};
 
 // Type exports for TypeScript support
-export type SiteConfig = typeof siteConfig
-export type Service = (typeof siteConfig.services)[number]
-export type NavItem = (typeof siteConfig.navigation.main)[number]
+export type SiteConfig = typeof siteConfig;
+export type Service = (typeof siteConfig.services)[number];
+export type NavItem = (typeof siteConfig.navigation.main)[number];
 
-export default siteConfig
+export default siteConfig;

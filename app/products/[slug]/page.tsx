@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge"
 import { ArrowLeft, Check, Star } from "lucide-react"
 import Link from "next/link"
 import type { Product, ApiResponse } from "@/lib/types"
+import { ProductInteraction } from "@/components/products/product-interaction"
 
 interface PageProps {
     params: Promise<{
@@ -217,9 +218,38 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         }
     }
 
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://mabags.vercel.app"
+    const productUrl = `${baseUrl}/products/${product.slug}`
+    
+    // Ensure image URL is absolute
+    const imageUrl = product.mainImage?.startsWith('http') 
+        ? product.mainImage 
+        : `${baseUrl}${product.mainImage || "/logo.png"}`
+
     return {
         title: product.title,
         description: product.description,
+        openGraph: {
+            title: product.title,
+            description: product.description,
+            url: productUrl,
+            siteName: "MA Bags",
+            images: [
+                {
+                    url: imageUrl,
+                    width: 1200,
+                    height: 630,
+                    alt: product.title,
+                },
+            ],
+            type: "website",
+        },
+        twitter: {
+            card: "summary_large_image",
+            title: product.title,
+            description: product.description,
+            images: [imageUrl],
+        },
     }
 }
 
@@ -236,7 +266,7 @@ export default async function ProductPage({ params }: PageProps) {
         : 0
 
     return (
-        <div className="container mx-auto px-4 py-8 md:py-12">
+        <div className="container mx-auto px-4 pt-24 pb-8 md:pt-24 md:pb-12">
             <Link
                 href="/collections"
                 className="inline-flex items-center text-sm text-muted-foreground hover:text-primary mb-8 transition-colors"
@@ -275,10 +305,12 @@ export default async function ProductPage({ params }: PageProps) {
                         <div className="flex items-center gap-2 mb-4">
                             <div className="flex text-yellow-400">
                                 {[...Array(5)].map((_, i) => (
-                                    <Star key={i} className="w-4 h-4 fill-current" />
+                                    <Star key={i} className={`w-4 h-4 ${product.rating && product.rating > i ? 'fill-current' : 'text-muted-foreground'}`} />
                                 ))}
                             </div>
-                            <span className="text-sm text-muted-foreground">(4.8/5 based on 24 reviews)</span>
+                            <span className="text-sm text-muted-foreground">
+                                ({product.rating ? product.rating.toFixed(1) : "N/A"}/5 based on {product.reviewCount || 0} reviews)
+                            </span>
                         </div>
 
                         <div className="flex items-baseline gap-3 mb-6">
@@ -313,6 +345,13 @@ export default async function ProductPage({ params }: PageProps) {
                             </svg>
                             Order via WhatsApp
                         </a>
+
+                        <ProductInteraction 
+                            slug={product.slug} 
+                            initialRating={product.rating}
+                            initialReviewCount={product.reviewCount}
+                            initialViews={product.views}
+                        />
                     </div>
 
                     <div className="border-t pt-8">

@@ -1,10 +1,58 @@
-[00:00:01.442] Server  LOG      ✓ Ready in 947ms
-[00:00:04.539] Server  LOG      ○ Compiling /admin/dashboard ...
-[00:00:06.585] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:07.423] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:07.423] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/dashboard","route":"/admin/dashboard"}
-[00:00:07.423] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765110037915}
-[00:00:07.908] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:02.517] Server  LOG      ✓ Ready in 1838ms
+[00:03:32.716] Server  LOG      ○ Compiling / ...
+[00:03:37.128] Browser WARN    Image with src "/premium-trolley-suitcase-red-luggage.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:03:37.410] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:03:37.410] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:03:37.410] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768712148541}
+[00:04:04.512] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:04:04.512] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:04:04.512] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768712175641}
+[00:04:04.896] Browser WARN    Image with src "https://res.cloudinary.com/dnq1ro6ih/image/upload/v1768316629/mabags-products/dejvgvv3bjxuowaib0zy.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:04:05.062] Browser WARN    Image with src "https://res.cloudinary.com/dnq1ro6ih/image/upload/v1768316296/mabags-products/goaq2lmyomeo7vikdqpo.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:04:13.700] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections?category=boys-bags color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections?category=boys-bags","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768712184826}
+[00:04:16.660] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768712187783}
+[00:04:20.110] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections?category=suitcases color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections?category=suitcases","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768712191235}
+[00:04:22.672] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768712193799}
+[00:06:15.880] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:06:15.880] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin","route":"/admin"}
+[00:06:15.880] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768712307004}
+[00:06:19.199] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768712310314}
+[00:06:48.857] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768712339971}
+[00:06:56.953] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:06:56.953] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/collections","route":"/collections"}
+[00:06:56.953] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768712348030}
+[00:06:56.953] Browser WARN    Image with src "https://res.cloudinary.com/dnq1ro6ih/image/upload/v1768316629/mabags-products/dejvgvv3bjxuowaib0zy.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:06:57.289] Browser WARN    Image with src "https://res.cloudinary.com/dnq1ro6ih/image/upload/v1768316296/mabags-products/goaq2lmyomeo7vikdqpo.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:06:59.470] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768712350591}
+[00:07:04.873] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768712355994}
+[00:08:32.904] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/generator-cover color: rgb(120, 120, 120) color: inherit {"dp":"/products/[slug]","o":"http://localhost:3000/products/generator-cover","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768712444031}
+[00:08:51.409] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768712462513}
+[00:08:51.409] Browser WARN    Image with src "http://localhost:3000/professional-bag-manufacturing-workshop-quality-cr.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[00:08:52.764] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768712463881}
+[00:15:38.151] Server  LOG      ✓ Compiled in 709ms
+[00:15:39.649] Browser ERROR   uncaughtError: ReferenceError: siteConfig is not defined
+[00:15:48.031] Server  LOG      ✓ Compiled in 519ms
+[00:15:49.432] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:15:50.099] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\ssr\_db115cbf._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:15:50.107] Server  ERROR    ⨯ ReferenceError: useState is not defined
+[00:15:51.500] Browser ERROR   uncaughtError: ReferenceError: useState is not defined
+[00:16:10.216] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:16:10.317] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\ssr\_db115cbf._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:16:10.333] Server  ERROR    ⨯ ReferenceError: useState is not defined
+[00:16:10.373] Server  LOG      ✓ Compiled in 321ms
+[00:16:10.486] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:16:12.454] Browser ERROR   uncaughtError: ReferenceError: useState is not defined
+[00:16:16.705] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:16:17.267] Server  LOG      ✓ Compiled in 219ms
+[00:16:18.447] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:16:18.447] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/dashboard","route":"/admin/dashboard"}
+[00:16:18.447] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768712909256}
+[00:18:06.308] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -41,30 +89,153 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[00:00:08.388] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:08.388] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/dashboard","route":"/admin/dashboard"}
-[00:00:08.388] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765110038169}
-[00:00:39.482] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\node_modules_cloudinary_0ecd8ca6._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:39.483] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\[root-of-the-server]__e75d765d._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:39.518] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:39.535] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\.next\dev\server\chunks\node_modules_next_09ff02cc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:39.542] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:39.550] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:39.555] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:39.556] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:39.558] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:39.559] Server  ERROR   C:\Users\Rehman\Downloads\Ma Bags\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:39.561] Server  ERROR   Error uploading to Cloudinary: Error: Must supply cloud_name
-[00:01:20.091] Server  LOG        Reload env: .env.local
-[00:10:59.620] Server  LOG        Reload env: .env.local
-[00:10:59.743] Server  LOG      ✓ Compiled in 33ms
-[00:10:59.763] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./src/config/global.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:11:00.287] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./src/config/global.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:11:01.861] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:11:02.386] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:11:02.386] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/dashboard","route":"/admin/dashboard"}
-[00:11:02.386] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765110692613}
-[00:11:02.442] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:18:06.507] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:18:06.507] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/dashboard","route":"/admin/dashboard"}
+[00:18:06.507] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768713017628}
+[00:18:46.639] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:18:46.639] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/collections","route":"/collections"}
+[00:18:46.639] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768713057766}
+[00:18:47.341] Browser WARN    Image with src "https://res.cloudinary.com/dnq1ro6ih/image/upload/v1768318003/mabags-products/el29v810c7wm0hflgbve.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:18:47.476] Browser WARN    Image with src "https://res.cloudinary.com/dnq1ro6ih/image/upload/v1768314834/mabags-products/b6ccuzsbvbdet9d4bpgi.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:20:12.629] Server  LOG      ✓ Compiled in 426ms
+[00:20:26.561] Server  LOG      ✓ Compiled in 584ms
+[00:20:58.282] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:20:58.282] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/dashboard","route":"/admin/dashboard"}
+[00:20:58.282] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768713189407}
+[00:23:05.911] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:23:05.911] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/collections","route":"/collections"}
+[00:23:05.911] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections?category=girls-travel color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections?category=girls-travel","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768713317040}
+[00:49:43.535] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768714914648}
+[00:49:50.131] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768714921246}
+[00:50:17.625] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/collections" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
+                            className="geist_9c6cb61b-module__8NX9hq__variable geist_mono_d6617093-module__z61v7q__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:50:17.901] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:50:17.901] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/collections","route":"/collections"}
+[00:50:17.901] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768714948930}
+[00:50:17.901] Browser WARN    Image with src "https://res.cloudinary.com/dnq1ro6ih/image/upload/v1768316629/mabags-products/dejvgvv3bjxuowaib0zy.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:50:17.901] Browser WARN    Image with src "https://res.cloudinary.com/dnq1ro6ih/image/upload/v1768317477/mabags-products/azdvibo8vszvur53wwhe.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:50:25.534] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/hp-laptop-bag color: rgb(120, 120, 120) color: inherit {"dp":"/products/[slug]","o":"http://localhost:3000/products/hp-laptop-bag","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768714956659}
+[00:50:29.165] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768714960279}
+[01:04:25.535] Browser WARN    Image with src "https://res.cloudinary.com/dnq1ro6ih/image/upload/v1768316629/mabags-products/dejvgvv3bjxuowaib0zy.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:04:25.535] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:04:25.535] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/collections","route":"/collections"}
+[01:04:25.535] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections?category=trolley-bags color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections?category=trolley-bags","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768715796664}
+[01:04:46.586] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:04:46.586] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/collections","route":"/collections"}
+[01:04:46.586] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections?category=laptop-bags color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections?category=laptop-bags","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768715817694}
+[01:04:46.586] Browser WARN    Image with src "https://res.cloudinary.com/dnq1ro6ih/image/upload/v1768309690/mabags-products/nkdlfgehalxzzoa1nrqf.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:04:46.977] Browser WARN    Image with src "/placeholder.svg?height=400&width=400&query=bag" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:05:01.086] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:05:01.086] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/collections","route":"/collections"}
+[01:05:01.086] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections?category=bike-covers color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections?category=bike-covers","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768715832129}
+[01:05:01.086] Browser WARN    Image with src "https://res.cloudinary.com/dnq1ro6ih/image/upload/v1767322040/mabags-products/w23nbsklqrfxeemiywvm.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:05:14.302] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:05:14.302] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/collections","route":"/collections"}
+[01:05:14.302] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections?category=boys-bags color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections?category=boys-bags","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768715845395}
+[01:05:14.302] Browser WARN    Image with src "https://res.cloudinary.com/dnq1ro6ih/image/upload/v1768316296/mabags-products/goaq2lmyomeo7vikdqpo.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:05:14.673] Browser WARN    Image with src "https://res.cloudinary.com/dnq1ro6ih/image/upload/v1768317477/mabags-products/azdvibo8vszvur53wwhe.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:05:20.402] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:05:20.402] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/collections","route":"/collections"}
+[01:05:20.402] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections?category=girls-travel color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections?category=girls-travel","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768715851529}
+[01:05:20.806] Browser WARN    Image with src "https://res.cloudinary.com/dnq1ro6ih/image/upload/v1768317933/mabags-products/x080sjrxutuj0xrd8gjq.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:05:31.134] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:05:31.134] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/collections","route":"/collections"}
+[01:05:31.134] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections?category=suitcases color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections?category=suitcases","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768715862262}
+[01:05:41.692] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/cross-body-bag color: rgb(120, 120, 120) color: inherit {"dp":"/products/[slug]","o":"http://localhost:3000/products/cross-body-bag","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768715872809}
+[01:06:48.730] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768715939850}
+[01:06:50.318] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768715941437}
+[01:07:09.082] Server  LOG      ✓ Compiled in 401ms
+[01:07:35.186] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/ac-cover color: rgb(120, 120, 120) color: inherit {"dp":"/products/[slug]","o":"http://localhost:3000/products/ac-cover","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768715986309}
+[01:07:48.216] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768715999335}
+[01:08:20.728] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections/cross-body-bag color: rgb(120, 120, 120) color: inherit {"dp":"/collections/[slug]","o":"http://localhost:3000/collections/cross-body-bag","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768716031852}
+[01:09:37.384] Server  LOG      ✓ Compiled in 249ms
+[01:09:40.334] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:09:40.334] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/collections/cross-body-bag","route":"/collections/[slug]"}
+[01:09:40.334] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections/cross-body-bag color: rgb(120, 120, 120) color: inherit {"dp":"/collections/[slug]","o":"http://localhost:3000/collections/cross-body-bag","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768716111457}
+[01:09:48.434] Server  LOG      ✓ Compiled in 119ms
+[01:09:50.555] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:09:50.555] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/collections/cross-body-bag","route":"/collections/[slug]"}
+[01:09:50.555] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections/cross-body-bag color: rgb(120, 120, 120) color: inherit {"dp":"/collections/[slug]","o":"http://localhost:3000/collections/cross-body-bag","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768716121676}
+[01:10:02.780] Server  LOG      ✓ Compiled in 128ms
+[01:10:04.455] Server  LOG      ✓ Compiled in 123ms
+[01:10:09.153] Server  LOG      ✓ Compiled in 112ms
+[01:10:10.970] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:10:10.970] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/collections/cross-body-bag","route":"/collections/[slug]"}
+[01:10:10.970] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections/cross-body-bag color: rgb(120, 120, 120) color: inherit {"dp":"/collections/[slug]","o":"http://localhost:3000/collections/cross-body-bag","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768716142097}
+[01:10:14.909] Server  LOG      ✓ Compiled in 217ms
+[01:10:16.300] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:10:16.300] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/collections/cross-body-bag","route":"/collections/[slug]"}
+[01:10:16.300] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections/cross-body-bag color: rgb(120, 120, 120) color: inherit {"dp":"/collections/[slug]","o":"http://localhost:3000/collections/cross-body-bag","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768716147422}
+[01:10:32.065] Server  LOG      ✓ Compiled in 262ms
+[01:10:34.787] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:10:34.787] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/collections/cross-body-bag","route":"/collections/[slug]"}
+[01:10:34.787] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections/cross-body-bag color: rgb(120, 120, 120) color: inherit {"dp":"/collections/[slug]","o":"http://localhost:3000/collections/cross-body-bag","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768716165913}
+[01:10:40.956] Server  LOG      ✓ Compiled in 108ms
+[01:10:42.803] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:10:42.803] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/collections/cross-body-bag","route":"/collections/[slug]"}
+[01:10:42.803] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections/cross-body-bag color: rgb(120, 120, 120) color: inherit {"dp":"/collections/[slug]","o":"http://localhost:3000/collections/cross-body-bag","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768716173930}
+[01:10:47.869] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:10:47.869] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/collections/cross-body-bag","route":"/collections/[slug]"}
+[01:10:47.869] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections/cross-body-bag color: rgb(120, 120, 120) color: inherit {"dp":"/collections/[slug]","o":"http://localhost:3000/collections/cross-body-bag","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768716178991}
+[01:11:03.108] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768716194217}
+[01:11:04.934] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/cross-body-bag color: rgb(120, 120, 120) color: inherit {"dp":"/products/[slug]","o":"http://localhost:3000/products/cross-body-bag","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768716196061}
+[01:11:10.065] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:11:10.065] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/products/cross-body-bag","route":"/products/[slug]"}
+[01:11:10.065] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/cross-body-bag color: rgb(120, 120, 120) color: inherit {"dp":"/products/[slug]","o":"http://localhost:3000/products/cross-body-bag","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768716201196}
+[01:11:19.700] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:11:19.700] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/products/cross-body-bag","route":"/products/[slug]"}
+[01:11:19.700] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/cross-body-bag color: rgb(120, 120, 120) color: inherit {"dp":"/products/[slug]","o":"http://localhost:3000/products/cross-body-bag","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768716210829}
+[01:11:21.507] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768716212627}
+[01:11:22.854] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/cross-body-bag color: rgb(120, 120, 120) color: inherit {"dp":"/products/[slug]","o":"http://localhost:3000/products/cross-body-bag","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768716213978}
+[01:11:39.240] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768716230354}
+[01:11:40.784] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/traveling-bag-hand-carry color: rgb(120, 120, 120) color: inherit {"dp":"/products/[slug]","o":"http://localhost:3000/products/traveling-bag-hand-carry","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768716231909}
+[01:12:12.454] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -101,63 +272,117 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[00:11:02.442] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:11:02.442] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/dashboard","route":"/admin/dashboard"}
-[00:11:02.442] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765110692477}
-[00:13:23.954] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:13:23.954] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/dashboard","route":"/admin/dashboard"}
-[00:13:23.954] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765110834445}
-[00:14:03.505] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:03.706] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:14:03.706] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/dashboard","route":"/admin/dashboard"}
-[00:14:03.706] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765110874198}
-[00:14:11.056] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:11.466] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:14:11.466] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:14:11.466] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765110881955}
-[00:14:22.387] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765110892868}
-[00:14:31.433] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:31.686] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:14:31.686] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/collections","route":"/collections"}
-[00:14:31.686] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765110902171}
-[00:14:31.818] Browser WARN    Image with src "https://res.cloudinary.com/dnq1ro6ih/image/upload/v1765098448/mabags-products/ptdctx6zssqsa59oer2s.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[01:12:12.454] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:12:12.454] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/dashboard","route":"/admin/dashboard"}
+[01:12:12.454] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768716263584}
+[01:12:37.194] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:12:37.194] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/dashboard","route":"/admin/dashboard"}
+[01:12:37.194] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768716288321}
+[01:12:40.338] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768716291462}
+[01:12:41.185] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768716292313}
+[01:17:00.412] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:17:00.412] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/dashboard","route":"/admin/dashboard"}
+[01:17:00.412] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768716551531}
+[01:17:19.640] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:17:19.640] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/dashboard","route":"/admin/dashboard"}
+[01:17:19.640] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768716570764}
+[01:17:42.020] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:17:42.020] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/dashboard","route":"/admin/dashboard"}
+[01:17:42.020] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768716593144}
+[01:18:02.173] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:18:02.173] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/collections","route":"/collections"}
+[01:18:02.173] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768716613276}
+[01:18:02.405] Browser WARN    Image with src "https://res.cloudinary.com/dnq1ro6ih/image/upload/v1768315947/mabags-products/jhcvcnsog4m6zt1jfd0v.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:14:40.314] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/test color: rgb(120, 120, 120) color: inherit {"dp":"/products/[slug]","o":"http://localhost:3000/products/test","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765110910799}
-[00:14:44.307] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765110914792}
-[00:14:47.042] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765110917520}
-[00:14:57.131] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765110927618}
-[00:15:08.214] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:15:08.214] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:15:08.214] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765110938698}
-[00:15:09.330] Browser WARN    Image with src "/premium-trolley-suitcase-red-luggage.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[01:18:02.640] Browser WARN    Image with src "https://res.cloudinary.com/dnq1ro6ih/image/upload/v1768315134/mabags-products/sksrdx8lturrwiqiq8fh.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:15:12.532] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765110943016}
-[00:15:16.485] Browser LOG     EmailJS Config: {"publicKey":"***hM-e","serviceId":"service_qskysxn","templateId":"template_8y7lvc8"}
-[00:15:16.485] Browser LOG     Sending data: {"from_email":"fobibajygo@mailinator.com","from_name":"Oren Pearson","message":"Facilis labore hic e","phone":"+1 (187) 286-6283","subject":"Aut dolore at dolore","to_email":"bagsma514@gmail.com"}
-[00:15:16.485] Browser LOG     Sending email with EmailJS...
-[00:15:18.269] Browser ERROR   EmailJS Full Error: {"status":404,"text":"Account not found"}
-[00:15:18.269] Browser ERROR   EmailJS Error Text: Account not found
-[00:17:06.692] Server  LOG        Reload env: .env.local
-[00:17:07.013] Server  LOG      ✓ Compiled in 159ms
-[00:17:07.209] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./src/config/global.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:17:07.210] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./src/config/global.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:17:07.896] Server  LOG        Reload env: .env.local
-[00:17:08.142] Server  LOG      ✓ Compiled in 44ms
-[00:17:09.261] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:17:10.427] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:17:10.427] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
-[00:17:10.427] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765111060437}
-[00:17:11.383] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:17:11.383] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
-[00:17:11.383] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765111061693}
-[00:17:40.615] Server  LOG        Reload env: .env.local
-[00:17:41.046] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./src/config/global.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:17:41.047] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./src/config/global.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:17:42.276] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:17:43.379] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:17:43.379] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
-[00:17:43.379] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765111093289}
-[00:17:43.407] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[01:18:02.810] Browser WARN    Image with src "https://res.cloudinary.com/dnq1ro6ih/image/upload/v1768318003/mabags-products/el29v810c7wm0hflgbve.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:18:14.701] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/cross-body-bag color: rgb(120, 120, 120) color: inherit {"dp":"/products/[slug]","o":"http://localhost:3000/products/cross-body-bag","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768716625816}
+[01:20:18.476] Server  LOG      ✓ Compiled in 374ms
+[01:20:19.445] Browser ERROR   ./app/admin/dashboard/page.tsx:374:23
+Parsing ecmascript source code failed
+  372 |                           </Button>
+  373 |                         </TableCell>
+> 374 |                       </TableRow>
+      |                       ^
+  375 |                     ))}
+  376 |                   </TableBody>
+  377 |                 </Table>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/dashboard/page.tsx [Client Component Browser]
+    ./app/admin/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/dashboard/page.tsx [Client Component SSR]
+    ./app/admin/dashboard/page.tsx [Server Component]
+[01:20:19.445] Browser ERROR   ./app/admin/dashboard/page.tsx:374:24
+Parsing ecmascript source code failed
+  372 |                           </Button>
+  373 |                         </TableCell>
+> 374 |                       </TableRow>
+      |                        ^^^^^^^^^^
+  375 |                     ))}
+  376 |                   </TableBody>
+  377 |                 </Table>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/dashboard/page.tsx [Client Component Browser]
+    ./app/admin/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/dashboard/page.tsx [Client Component SSR]
+    ./app/admin/dashboard/page.tsx [Server Component]
+[01:20:19.445] Browser ERROR   ./app/admin/dashboard/page.tsx:374:23
+Parsing ecmascript source code failed
+  372 |                           </Button>
+  373 |                         </TableCell>
+> 374 |                       </TableRow>
+      |                       ^
+  375 |                     ))}
+  376 |                   </TableBody>
+  377 |                 </Table>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/dashboard/page.tsx [Client Component Browser]
+    ./app/admin/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/dashboard/page.tsx [Client Component SSR]
+    ./app/admin/dashboard/page.tsx [Server Component]
+[01:20:19.445] Browser ERROR   ./app/admin/dashboard/page.tsx:374:24
+Parsing ecmascript source code failed
+  372 |                           </Button>
+  373 |                         </TableCell>
+> 374 |                       </TableRow>
+      |                        ^^^^^^^^^^
+  375 |                     ))}
+  376 |                   </TableBody>
+  377 |                 </Table>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/dashboard/page.tsx [Client Component Browser]
+    ./app/admin/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/dashboard/page.tsx [Client Component SSR]
+    ./app/admin/dashboard/page.tsx [Server Component]
+[01:20:47.894] Server  LOG      ✓ Compiled in 257ms
+[01:21:14.386] Server  LOG      ✓ Compiled in 115ms
+[01:21:49.746] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -175,7 +400,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/contact" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin/das..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -194,18 +419,13 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[00:17:43.407] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:17:43.407] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
-[00:17:43.407] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765111093836}
-[00:18:01.528] Server  LOG        Reload env: .env.local
-[00:18:01.742] Server  LOG      ✓ Compiled in 64ms
-[00:18:01.990] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./src/config/global.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:18:01.991] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./src/config/global.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:18:03.107] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:18:04.381] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:18:04.381] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
-[00:18:04.381] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765111114022}
-[00:18:04.414] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[01:21:49.746] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:21:49.746] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/dashboard","route":"/admin/dashboard"}
+[01:21:49.746] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768716840874}
+[01:30:28.292] Server  LOG      ✓ Compiled in 241ms
+[01:30:55.003] Server  LOG      ✓ Compiled in 262ms
+[01:31:10.573] Server  LOG      ✓ Compiled in 148ms
+[01:41:30.346] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -223,7 +443,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/contact" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin/das..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -242,27 +462,20 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[00:18:04.414] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:18:04.414] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
-[00:18:04.414] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765111114545}
-[00:18:27.547] Browser LOG     EmailJS Config: {"publicKey":"***sU4u","serviceId":"service_qskysxn","templateId":"template_ud03mbo"}
-[00:18:27.547] Browser LOG     Sending data: {"from_email":"dixeves@mailinator.com","from_name":"Merrill Marks","message":"Molestiae anim imped","phone":"+1 (903) 394-1558","subject":"In et cumque adipisc","to_email":"bagsma514@gmail.com"}
-[00:18:27.548] Browser LOG     Sending email with EmailJS...
-[00:18:28.612] Browser ERROR   EmailJS Full Error: {"status":400,"text":"The Public Key is invalid. To find this ID, visit https://dashboard.emailjs.com/admin/account"}
-[00:18:28.612] Browser ERROR   EmailJS Error Text: The Public Key is invalid. To find this ID, visit https://dashboard.emailjs.com/admin/account
-[00:18:40.148] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:18:40.148] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
-[00:18:40.148] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765111150641}
-[00:18:47.710] Browser LOG     EmailJS Config: {"publicKey":"***sU4u","serviceId":"service_qskysxn","templateId":"template_ud03mbo"}
-[00:18:47.710] Browser LOG     Sending data: {"from_email":"lusaqerax@mailinator.com","from_name":"Shelley Roman","message":"Commodo perspiciatis","phone":"+1 (768) 233-8085","subject":"Eius quis aliquam qu","to_email":"bagsma514@gmail.com"}
-[00:18:47.710] Browser LOG     Sending email with EmailJS...
-[00:18:48.344] Browser ERROR   EmailJS Full Error: {"status":400,"text":"The Public Key is invalid. To find this ID, visit https://dashboard.emailjs.com/admin/account"}
-[00:18:48.344] Browser ERROR   EmailJS Error Text: The Public Key is invalid. To find this ID, visit https://dashboard.emailjs.com/admin/account
-[00:19:40.511] Server  LOG        Reload env: .env.local
-[00:19:41.062] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./src/config/global.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:19:41.063] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./src/config/global.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:19:42.428] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:44.366] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[01:41:30.346] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:41:30.346] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/dashboard","route":"/admin/dashboard"}
+[01:41:30.346] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768718021476}
+[01:48:34.584] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:48:34.584] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/products/trolly-bag","route":"/products/[slug]"}
+[01:48:34.584] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/trolly-bag color: rgb(120, 120, 120) color: inherit {"dp":"/products/[slug]","o":"http://localhost:3000/products/trolly-bag","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768718445714}
+[01:49:43.470] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./src/config/global.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:49:43.488] Server  LOG      ✓ Compiled in 354ms
+[01:49:43.496] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./src/config/global.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:49:44.192] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./src/config/global.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:49:44.193] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./src/config/global.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:49:44.195] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./src/config/global.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:49:44.195] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./src/config/global.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:49:48.451] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -280,7 +493,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/contact" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/products/..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -299,30 +512,95 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[00:19:44.393] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:19:44.393] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
-[00:19:44.393] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765111214138}
-[00:19:44.554] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:19:44.554] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
-[00:19:44.554] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765111215039}
-[00:19:49.465] Browser LOG     EmailJS Config: {"publicKey":"***hM-e","serviceId":"service_qskysxn","templateId":"template_ud03mbo"}
-[00:19:49.465] Browser LOG     Sending data: {"from_email":"mizymevome@mailinator.com","from_name":"Aladdin Sanford","message":"Excepturi enim eiusm","phone":"+1 (933) 877-4499","subject":"Rem ut nisi ducimus","to_email":"bagsma514@gmail.com"}
-[00:19:49.465] Browser LOG     Sending email with EmailJS...
-[00:19:51.540] Browser LOG     EmailJS Response: {"status":200,"text":"OK"}
-[00:28:10.613] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:28:10.613] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin","route":"/admin"}
-[00:28:10.613] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765111721095}
-[00:28:14.133] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:28:14.133] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin","route":"/admin"}
-[00:28:14.133] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765111724618}
-[00:28:25.740] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765111736229}
-[00:28:28.849] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765111739326}
-[00:28:31.342] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765111741833}
-[00:28:37.610] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:28:37.610] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin","route":"/admin"}
-[00:28:37.610] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765111748101}
-[00:29:35.617] Server  LOG      ✓ Compiled in 526ms
-[00:29:57.175] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[01:49:48.451] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:49:48.451] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/products/cross-body-bag","route":"/products/[slug]"}
+[01:49:48.451] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/cross-body-bag color: rgb(120, 120, 120) color: inherit {"dp":"/products/[slug]","o":"http://localhost:3000/products/cross-body-bag","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768718518856}
+[01:49:48.452] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:49:48.452] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/dashboard","route":"/admin/dashboard"}
+[01:49:48.452] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768718518908}
+[01:49:48.453] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:49:48.453] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/products/trolly-bag","route":"/products/[slug]"}
+[01:49:48.453] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/trolly-bag color: rgb(120, 120, 120) color: inherit {"dp":"/products/[slug]","o":"http://localhost:3000/products/trolly-bag","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768718518909}
+[01:50:09.433] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:50:09.433] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/dashboard","route":"/admin/dashboard"}
+[01:50:09.433] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768718540562}
+[01:52:53.478] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:52:53.478] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/products/trolly-bag","route":"/products/[slug]"}
+[01:52:53.478] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/trolly-bag color: rgb(120, 120, 120) color: inherit {"dp":"/products/[slug]","o":"http://localhost:3000/products/trolly-bag","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768718704609}
+[01:53:37.563] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:53:39.292] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:53:39.292] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin","route":"/admin"}
+[01:53:39.292] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768718750418}
+[01:53:44.309] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768718755428}
+[01:56:10.990] Server  LOG      ✓ Compiled in 246ms
+[01:56:22.491] Server  LOG      ✓ Compiled in 121ms
+[01:56:38.135] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:56:38.135] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/dashboard","route":"/admin/dashboard"}
+[01:56:38.135] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768718929262}
+[02:00:36.244] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768719167352}
+[02:01:55.972] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:01:55.972] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/collections","route":"/collections"}
+[02:01:55.972] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768719247083}
+[02:01:55.972] Browser WARN    Image with src "https://res.cloudinary.com/dnq1ro6ih/image/upload/v1768316629/mabags-products/dejvgvv3bjxuowaib0zy.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:01:56.080] Browser WARN    Image with src "https://res.cloudinary.com/dnq1ro6ih/image/upload/v1768316296/mabags-products/goaq2lmyomeo7vikdqpo.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:01:56.389] Browser WARN    Image with src "https://res.cloudinary.com/dnq1ro6ih/image/upload/v1768317477/mabags-products/azdvibo8vszvur53wwhe.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:02:33.889] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:02:33.889] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/results","route":"/admin/results"}
+[02:02:33.889] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/results color: rgb(120, 120, 120) color: inherit {"dp":"/admin/results","o":"http://localhost:3000/admin/results","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768719285008}
+[02:02:44.666] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:02:44.666] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/results","route":"/admin/results"}
+[02:02:44.666] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/results color: rgb(120, 120, 120) color: inherit {"dp":"/admin/results","o":"http://localhost:3000/admin/results","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768719295791}
+[02:02:48.200] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:02:48.200] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin","route":"/admin"}
+[02:02:48.200] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768719299330}
+[02:02:50.722] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768719301850}
+[02:05:47.280] Server  LOG      ✓ Compiled in 158ms
+[02:05:47.443] Browser ERROR   ./app/admin/dashboard/page.tsx:598:3
+Parsing ecmascript source code failed
+  596 |   )
+  597 | }
+> 598 |   )
+      |   ^
+  599 | }
+  600 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/dashboard/page.tsx [Client Component Browser]
+    ./app/admin/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/dashboard/page.tsx [Client Component SSR]
+    ./app/admin/dashboard/page.tsx [Server Component]
+[02:05:47.443] Browser ERROR   ./app/admin/dashboard/page.tsx:598:3
+Parsing ecmascript source code failed
+  596 |   )
+  597 | }
+> 598 |   )
+      |   ^
+  599 | }
+  600 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/admin/dashboard/page.tsx [Client Component Browser]
+    ./app/admin/dashboard/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/admin/dashboard/page.tsx [Client Component SSR]
+    ./app/admin/dashboard/page.tsx [Server Component]
+[02:06:00.859] Server  LOG      ✓ Compiled in 149ms
+[02:06:24.209] Server  LOG      ✓ Compiled in 228ms
+[02:06:33.606] Server  LOG      ✓ Compiled in 294ms
+[02:07:19.902] Server  LOG      ✓ Compiled in 261ms
+[02:12:44.642] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -340,7 +618,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/admin" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin/das..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -359,11 +637,32 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[00:29:57.175] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:29:57.175] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin","route":"/admin"}
-[00:29:57.175] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765111827656}
-[00:29:58.890] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765111829374}
-[00:30:02.995] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:30:02.995] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin","route":"/admin"}
-[00:30:02.995] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765111833520}
-[00:30:11.263] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765111841749}
+[02:12:44.642] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:12:44.642] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/dashboard","route":"/admin/dashboard"}
+[02:12:44.642] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768719895769}
+[02:12:58.200] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/trolly-bag color: rgb(120, 120, 120) color: inherit {"dp":"/products/[slug]","o":"http://localhost:3000/products/trolly-bag","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768719909135}
+[02:13:28.350] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768719939475}
+[02:13:30.259] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/cross-body-bag color: rgb(120, 120, 120) color: inherit {"dp":"/products/[slug]","o":"http://localhost:3000/products/cross-body-bag","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768719941382}
+[02:13:41.926] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:13:42.600] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:13:42.600] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[02:13:42.600] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768719953723}
+[02:13:46.515] Browser WARN    Image with src "/premium-trolley-suitcase-red-luggage.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[02:14:21.031] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections/cross-body-bag color: rgb(120, 120, 120) color: inherit {"dp":"/collections/[slug]","o":"http://localhost:3000/collections/cross-body-bag","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768719992155}
+[02:14:28.821] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:14:29.104] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:14:29.104] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/collections/cross-body-bag","route":"/collections/[slug]"}
+[02:14:29.104] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections/cross-body-bag color: rgb(120, 120, 120) color: inherit {"dp":"/collections/[slug]","o":"http://localhost:3000/collections/cross-body-bag","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768720000235}
+[02:14:56.392] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:14:56.653] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:14:56.653] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/collections/cross-body-bag","route":"/collections/[slug]"}
+[02:14:56.653] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections/cross-body-bag color: rgb(120, 120, 120) color: inherit {"dp":"/collections/[slug]","o":"http://localhost:3000/collections/cross-body-bag","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768720027772}
+[02:15:24.986] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768720056097}
+[02:15:29.307] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/trolly-bag color: rgb(120, 120, 120) color: inherit {"dp":"/products/[slug]","o":"http://localhost:3000/products/trolly-bag","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768720060429}
+[02:15:48.521] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/collections color: rgb(120, 120, 120) color: inherit {"dp":"/collections","o":"http://localhost:3000/collections","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768720079639}
+[02:15:50.162] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/products/traveling-bag-hand-carry color: rgb(120, 120, 120) color: inherit {"dp":"/products/[slug]","o":"http://localhost:3000/products/traveling-bag-hand-carry","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768720081284}
+[02:16:58.586] Server  LOG      ✓ Compiled in 177ms
+[02:17:58.200] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:17:58.200] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin/dashboard","route":"/admin/dashboard"}
+[02:17:58.200] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1768720209328}
