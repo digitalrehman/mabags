@@ -10,7 +10,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Lock, Home } from "lucide-react"
 
 // Hardcoded password
-const ADMIN_PASSWORD = "admin123"
+const ADMIN_PASSWORD = "Admin@125"
 
 export default function AdminLogin() {
   const [password, setPassword] = useState("")
